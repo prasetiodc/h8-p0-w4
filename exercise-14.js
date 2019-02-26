@@ -27,7 +27,7 @@ function naikAngkot(arrPenumpang) {
             penumpang: arrPenumpang[i][0],
             naikDari: arrPenumpang[i][1],
             tujuan: arrPenumpang[i][2],
-            bayar: (akhir-awal)*2000
+            bayar: Math.abs(akhir-awal)*2000
         }
 
         display.push(obj)
